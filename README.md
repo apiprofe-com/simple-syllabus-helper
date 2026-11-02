@@ -22,7 +22,7 @@ This helper does the finding for you:
 ```sh
 npm install
 node src/cli.js --term "Spring 2027"                  # all your teacher courses in that term
-node src/cli.js 177734 179718                          # or specific Canvas course IDs
+node src/cli.js 12345 67890                            # or specific Canvas course IDs
 node src/cli.js --term "Spring 2027" --canvas yourschool.instructure.com
 ```
 Options:
