@@ -3,7 +3,7 @@
 // highlights it, and waits for YOU to click it. It never clicks import, Save or Submit itself.
 //
 //   node src/cli.js --term "Spring 2027"            all your teacher courses in that term
-//   node src/cli.js 177734 179718                    specific Canvas course IDs
+//   node src/cli.js 12345 67890                      specific Canvas course IDs
 //   options: --canvas mdc.instructure.com  --from "Fall 2025" (pin the import-from term)
 //            --redo (also offer courses that already have a syllabus imported)
 import fs from 'node:fs';
