@@ -1,0 +1,11 @@
+{
+  "name": "simple-syllabus-helper",
+  "version": "0.1.0",
+  "description": "Guided helper for Simple Syllabus in Canvas: finds the right past syllabus to import, highlights it, you click.",
+  "type": "module",
+  "bin": { "ss-helper": "src/cli.js" },
+  "scripts": { "start": "node src/cli.js", "probe": "node src/probe.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": { "puppeteer-core": "^25.16.0" }
+}
